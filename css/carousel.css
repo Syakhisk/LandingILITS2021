@@ -1,3 +1,7 @@
+.dots {
+	width: 100%;
+}
+
 .dots > * {
 	height: 20px;
 	width: 20px;
@@ -11,7 +15,7 @@
 	transition: all 0.3s;
 }
 
-.dots.carousel-indicators{
+.dots.carousel-indicators {
 	position: relative;
 	margin: 0;
 }
@@ -20,12 +24,15 @@
 	opacity: 1;
 } */
 
-.dot-item-1 {
+.dot-item:nth-child(3n + 1) {
 	background: #fcfc54;
 }
 
-.dot-item-2 {
+.dot-item:nth-child(3n + 2) {
 	background: #f60d4f;
+}
+.dot-item:nth-child(3n + 3) {
+	background: #f99121;
 }
 
 .carousel-slide-image {
